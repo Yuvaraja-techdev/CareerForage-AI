@@ -347,36 +347,7 @@ All requests from the client route through the central Gateway at `http://localh
 | `/api/roadmap` | Roadmap Service (`:8004`) | ✅ Yes | Generate and update learning roadmaps |
 | `/api/billing` | Billing Service (`:8005`) | ✅ Yes | Razorpay orders, credit check, coin purchase |
 
----
-
-## 📤 How to Upload to GitHub
-
-Follow these steps to upload your repository to GitHub securely:
-
-```bash
-# 1. Initialize Git repository
-git init
-
-# 2. Stage all project files (safe files only; secrets are ignored)
-git add .
-
-# 3. Check status to ensure NO .env or service account keys are staged
-git status
-
-# 4. Commit your changes
-git commit -m "feat: complete CareerForge AI microservices platform"
-
-# 5. Rename branch to main
-git branch -M main
-
-# 6. Add your GitHub remote repository
-git remote add origin https://github.com/<your-username>/<your-repo-name>.git
-
-# 7. Push your code to GitHub
-git push -u origin main
-```
-
----
+------
 
 ## 📄 License
 
